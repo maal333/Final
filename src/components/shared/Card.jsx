@@ -11,7 +11,7 @@ const Card = (props) => {
       />
       <p className="text-xl">{description}</p>
       <span className="text-gray-400">${price}</span>
-      <p className="text-gray-600">{inventory} Bowls available</p>
+      <p className="text-gray-600">{inventory} Disponible</p>
     </div>
   );
 };

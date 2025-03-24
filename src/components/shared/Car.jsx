@@ -15,7 +15,7 @@ const Card = (props) => {
           onClick={() => setShowOrder(false)}
           className="lg:hidden absolute left-4 top-4 p-3 box-content text-gray-300 bg-[#262837] rounded-full text-xl"
         />
-        <h1 className="text-2xl my-4">Orders #151416</h1>
+        <h1 className="text-2xl my-4">Carrito de compras</h1>
         {/* Pills */}
         <div className="flex items-center gap-4 flex-wrap mb-8">
           <button className="bg-[#ec7c6a] text-white py-2 px-4 rounded-xl">
@@ -32,8 +32,8 @@ const Card = (props) => {
         <div>
           <div className="grid grid-cols-6 mb-4 p-4">
             <h5 className="col-span-4">Item</h5>
-            <h5>Qty</h5>
-            <h5>Price</h5>
+            <h5>Ctd</h5>
+            <h5>Precio</h5>
           </div>
           {/* Products */}
           <div className="h-[400px] md:h-[700px] lg:h-[540px] overflow-scroll">
@@ -42,9 +42,9 @@ const Card = (props) => {
               <div className="grid grid-cols-6 mb-4">
                 {/* Product description */}
                 <div className="col-span-4 flex items-center gap-3">
-                  <img src="comida.png" className="w-10 h-10 object-cover" />
+                  <img src="curso.png" className="w-10 h-10 object-cover" />
                   <div>
-                    <h5 className="text-sm">Spaicy seaso...</h5>
+                    <h5 className="text-sm">Curso Python...</h5>
                     <p className="text-xs text-gray-500">$2.29</p>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ const Card = (props) => {
                 </div>
                 {/* Price */}
                 <div>
-                  <span>$4.58</span>
+                  <span>$100NC</span>
                 </div>
               </div>
               {/* Note */}
@@ -63,7 +63,7 @@ const Card = (props) => {
                   <input
                     type="text"
                     className="bg-[#1F1D2B] py-2 px-4 rounded-lg outline-none"
-                    placeholder="Order note..."
+                    placeholder="Descripcion....."
                   />
                 </form>
                 <div>
@@ -78,9 +78,9 @@ const Card = (props) => {
               <div className="grid grid-cols-6 mb-4">
                 {/* Product description */}
                 <div className="col-span-4 flex items-center gap-3">
-                  <img src="comida.png" className="w-10 h-10 object-cover" />
+                  <img src="curso.png" className="w-10 h-10 object-cover" />
                   <div>
-                    <h5 className="text-sm">Spaicy seaso...</h5>
+                    <h5 className="text-sm">Curso Css...</h5>
                     <p className="text-xs text-gray-500">$2.29</p>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ const Card = (props) => {
                 </div>
                 {/* Price */}
                 <div>
-                  <span>$4.58</span>
+                  <span>$400NC</span>
                 </div>
               </div>
               {/* Note */}
@@ -99,7 +99,7 @@ const Card = (props) => {
                   <input
                     type="text"
                     className="bg-[#1F1D2B] py-2 px-4 rounded-lg outline-none"
-                    placeholder="Order note..."
+                    placeholder="Descripcion....."
                   />
                 </form>
                 <div>
@@ -114,19 +114,19 @@ const Card = (props) => {
               <div className="grid grid-cols-6 mb-4">
                 {/* Product description */}
                 <div className="col-span-4 flex items-center gap-3">
-                  <img src="comida.png" className="w-10 h-10 object-cover" />
+                  <img src="curso.png" className="w-10 h-10 object-cover" />
                   <div>
-                    <h5 className="text-sm">Spaicy seaso...</h5>
+                    <h5 className="text-sm">Curso React...</h5>
                     <p className="text-xs text-gray-500">$2.29</p>
                   </div>
                 </div>
                 {/* Qty */}
                 <div>
-                  <span>2</span>
+                  <span>5</span>
                 </div>
                 {/* Price */}
                 <div>
-                  <span>$4.58</span>
+                  <span>$40NC</span>
                 </div>
               </div>
               {/* Note */}
@@ -135,7 +135,7 @@ const Card = (props) => {
                   <input
                     type="text"
                     className="bg-[#1F1D2B] py-2 px-4 rounded-lg outline-none"
-                    placeholder="Order note..."
+                    placeholder="Descripcion..."
                   />
                 </form>
                 <div>
@@ -150,7 +150,7 @@ const Card = (props) => {
               <div className="grid grid-cols-6 mb-4">
                 {/* Product description */}
                 <div className="col-span-4 flex items-center gap-3">
-                  <img src="comida.png" className="w-10 h-10 object-cover" />
+                  <img src="curso.png" className="w-10 h-10 object-cover" />
                   <div>
                     <h5 className="text-sm">Spaicy seaso...</h5>
                     <p className="text-xs text-gray-500">$2.29</p>
@@ -158,7 +158,7 @@ const Card = (props) => {
                 </div>
                 {/* Qty */}
                 <div>
-                  <span>2</span>
+                  <span>1</span>
                 </div>
                 {/* Price */}
                 <div>
@@ -186,7 +186,7 @@ const Card = (props) => {
         {/* Submit payment */}
         <div className="bg-[#262837] absolute w-full bottom-0 left-0 p-4">
           <div className="flex items-center justify-between mb-4">
-            <span className="text-gray-400">Discount</span>
+            <span className="text-gray-400">Descuento</span>
             <span>$0</span>
           </div>
           <div className="flex items-center justify-between mb-6">
@@ -195,7 +195,7 @@ const Card = (props) => {
           </div>
           <div>
             <button className="bg-[#ec7c6a] w-full py-2 px-4 rounded-lg">
-              Continue to payment
+              Continua con el pago
             </button>
           </div>
         </div>

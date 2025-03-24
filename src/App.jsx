@@ -61,74 +61,69 @@ function App() {
           <div className="p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
             {/* Card */}
             <Card
-              img="comida.png"
+              img="curso.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="dish.png"
+              img="curso.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="comida.png"
+              img="curso.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="dish.png"
+              img=" curso.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="comida.png"
+              img="curso.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="dish.png"
+              img="curso.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="comida.png"
+              img="curso.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="dish.png"
+              img="curso.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="comida.png"
+              img="curso.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
-            {/* Card */}
-            <Card
-              img="dish.png"
-              description="Speacy seasoned seafood nodles"
-              price="2.29"
-              inventory="20"
-            />
+           
+            
           </div>
         </div>
       </main>
