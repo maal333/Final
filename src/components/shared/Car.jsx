@@ -42,7 +42,7 @@ const Card = (props) => {
               <div className="grid grid-cols-6 mb-4">
                 {/* Product description */}
                 <div className="col-span-4 flex items-center gap-3">
-                  <img src="curso.png" className="w-10 h-10 object-cover" />
+                  <img src="image6.png" className="w-10 h-10 object-cover" />
                   <div>
                     <h5 className="text-sm">Curso Python...</h5>
                     <p className="text-xs text-gray-500">$2.29</p>
@@ -78,7 +78,7 @@ const Card = (props) => {
               <div className="grid grid-cols-6 mb-4">
                 {/* Product description */}
                 <div className="col-span-4 flex items-center gap-3">
-                  <img src="curso.png" className="w-10 h-10 object-cover" />
+                  <img src="image1.png" className="w-10 h-10 object-cover" />
                   <div>
                     <h5 className="text-sm">Curso Css...</h5>
                     <p className="text-xs text-gray-500">$2.29</p>
@@ -114,7 +114,7 @@ const Card = (props) => {
               <div className="grid grid-cols-6 mb-4">
                 {/* Product description */}
                 <div className="col-span-4 flex items-center gap-3">
-                  <img src="curso.png" className="w-10 h-10 object-cover" />
+                  <img src="image9.png" className="w-10 h-10 object-cover" />
                   <div>
                     <h5 className="text-sm">Curso React...</h5>
                     <p className="text-xs text-gray-500">$2.29</p>

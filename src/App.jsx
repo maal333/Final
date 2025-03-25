@@ -61,63 +61,63 @@ function App() {
           <div className="p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
             {/* Card */}
             <Card
-              img="curso.png"
+              img="image1.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="curso.png"
+              img="image2.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="curso.png"
+              img="image3.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img=" curso.png"
+              img=" image4.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="curso.png"
+              img="image5.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="curso.png"
+              img="image6.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="curso.png"
+              img="image7.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="curso.png"
+              img="image8.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
             />
             {/* Card */}
             <Card
-              img="curso.png"
+              img="image9.png"
               description="Speacy seasoned seafood nodles"
               price="2.29"
               inventory="20"
