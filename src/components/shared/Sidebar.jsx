@@ -24,14 +24,9 @@ const Sidebar = (props) => {
             <h1 className="text-2xl text-gray-300 uppercase font-bold text-center my-5">
               <a href="https://ecesde.com/#"
               target="_blank"
-
               >
                 <img src="image.png" alt="" />
-              
               </a>
-              
-            
-              
              
             </h1>
           </li>
